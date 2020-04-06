@@ -7,9 +7,6 @@ import org.springframework.batch.item.ItemWriter;
 
 import java.util.List;
 
-@AllArgsConstructor
-@NoArgsConstructor
-@Data
 public class Writer implements ItemWriter<String> {
 
     @Override

@@ -8,9 +8,6 @@ import org.springframework.batch.item.NonTransientResourceException;
 import org.springframework.batch.item.ParseException;
 import org.springframework.batch.item.UnexpectedInputException;
 
-@AllArgsConstructor
-@NoArgsConstructor
-@Data
 public class Reader implements ItemReader<String> {
 
     private String[] messages = {"donnatto.com",
